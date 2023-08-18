@@ -1,18 +1,13 @@
 h1, h2 {
-    color: #ffe500;
+    color: #ffff00;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #c36726;
+    background-color: rgb(109, 153, 211);
     margin-left: 40px;
     margin-right: 40px;
-}
-
-.main {
-    font-size: 30px;
-    line-height: 2;
 }
 
 .center {
@@ -25,4 +20,18 @@ body {
 img {
     height: 75%;
     width: auto;
-  }
+}
+
+.main {
+    display: block;
+    margin: 16px 108px;
+    background: #c36726;
+    text-align: center;
+    padding: 16px;
+    font-size: 30px;
+}
+
+li {
+    margin: 12px;
+    padding: 10px
+}
